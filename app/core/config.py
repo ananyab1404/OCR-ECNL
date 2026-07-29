@@ -1,10 +1,8 @@
+import os
 from functools import lru_cache
 from urllib.parse import urlparse
 
 from dotenv import load_dotenv
-
-import os
-
 
 load_dotenv()
 
